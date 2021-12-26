@@ -1,0 +1,14 @@
+name: Deploy Selenium Grid
+on:
+  push:
+    branches:
+      - '*' 
+jobs:
+  selenium:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Expose
+      uses: ./.github/actions/dynamo
+      with: 
+        names: "ADSF ASDSFD ASDSFDG"
