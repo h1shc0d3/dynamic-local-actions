@@ -28,4 +28,4 @@ runs:
     - name: Hello
       shell: bash
       run: |
-        echo "Hello World ${{ inputs.names }}""
+        echo "Hello World ${{ inputs.names }}"
