@@ -11,10 +11,10 @@ jobs:
     - name: Ingest dynamic
       run: |
         echo "
-        - name: Hello
-          shell: bash
-          run: |
-            echo 'Hello Madnes!!'" >> ./.github/actions/dynamo/action.yaml
+             - name: Hello
+               shell: bash
+               run: |
+                 echo 'Hello Madnes!!'" >> ./.github/actions/dynamo/action.yaml
     - name: Check code 
       run: |
         cat ./.github/actions/dynamo/action.yaml         
