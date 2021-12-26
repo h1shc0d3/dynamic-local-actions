@@ -15,6 +15,9 @@ jobs:
           shell: bash
           run: |
             echo 'Hello Madnes!!'" >> ./.github/actions/dynamo/action.yaml
+    - name: Check code 
+      run: |
+        cat ./.github/actions/dynamo/action.yaml         
     - name: Expose
       uses: ./.github/actions/dynamo
       with: 
